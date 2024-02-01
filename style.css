@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+   padding: 0;
+   margin:  0;
+} 
+
+body {
+   font-family: 'PT Serif', serif;
+   padding-left: 50px ;
+   padding-right: 50px;
+}
+.topo{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px ;
+  align-items:center;
+}
+ 
+ul{
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.botao-securdario {
+ border: 2px solid black ; 
+ border-radius: 5px;
+}
+
+img{
+  width: 350px;
+}
+
+.corpo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.esquerdo{
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+   font-size: 16px;
+   font-weight:500;
+}
+
+h1{
+   font-size: 40px ;
+   font-weight: 500;
+   color:  rgb(236, 95, 208);
+}
+
+.botao-primario{
+
+   background-color: rgb(219, 17, 179);
+   color: rgb(245, 238, 238);
+   font-size: 28px ;
+   border-radius: 9px ;
+   text-align: center;
+   padding: 11px ;
+   display: block;
+   width: 200px;
+   margin-top: 10px;
+}
+
+p,h1{
+  padding-top: 22px;
+}
+
+.img_principal{
+  width: 200px;
+}
