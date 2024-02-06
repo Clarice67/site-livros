@@ -176,6 +176,7 @@ h3 {
 
 .beneficio h4 {
   font-size: 20px;
+  color: var(--rosa);
 }
 
 .beneficio p {
@@ -200,10 +201,15 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--rosa);
 }
 
 #sobre-nos .esquerda img {
   width: 600px;
+}
+
+#sobre-nos .direita h2 {
+  color: var(--rosa);
 }
 
 #sobre-nos .direita {
@@ -217,7 +223,7 @@ h3 {
 
 footer {
   background-color: var(--roxo-medio);
-  color: var(--branco);
+  color: var(--preto);
   padding: 40px 0;
   display: flex;
   justify-content: space-around;
@@ -259,4 +265,8 @@ footer li:hover {
   display: flex;
   justify-content: space-around;
   font-size: 22px;
+}
+
+.icons a {
+  color: var(--rosa);
 }
