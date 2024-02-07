@@ -11,29 +11,33 @@
 
 <body>
     <section class="topo">
-        </h2>AVENTURAS LITERÁRIAS </h2>
-        <section class="manubar">
-            <ul>
-                <a href="">
-                    <li>Página Inicial</li>
-                </a>
-                <a href="https://www.amazon.com.br/Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books">
-                    <li>Sobre</li>
-                </a>
-                <a href="https://github.com/Clarice67">
-                    <li>Contato</li>
-                </a>
-                <a class=" botao-securdario" href="https://www.amazon.com.br/Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books">
-                    <li> Quero comprar livros</li>
-                </a>
-            </ul>
-        </section>
-    </section>
+        <a href="index.html"><img src="images/favicon.svg" alt="" /></a>
+        <nav class="menu-lateral">
+          <ion-icon
+                class="botao-menu-close"
+                name="close-outline"
+                onclick="toggleMenu()"></ion-icon>
+          <ul>
+              <a href="index.html"><li>Página inicial</li></a>
+            <a href="https://www.amazon.com.br/Livros/b/?ie=UTF8&node=6740748011&ref_=nav_cs_books"><li>Sobre</li></a>
+            <a href="https://github.com/Clarice67"><li>Contato</li></a>
+            <a class="botao-primario" href="">Quero comprar livros!</a>
+          </ul>
+        </nav>
+        <ion-icon
+          class="botao-menu"
+          name="menu-outline"
+          onclick="toggleMenu()"
+        ></ion-icon>
+      </section>
+
+    
     <section class="corpo"> 
 		<section class="esquerda"> 
-			<p> Comprar livros</p>
 			<h1> MUNDO DOS LIVROS </h1>
-			<p>Bem-vindo ao nosso universo literário! Explore histórias envolventes e conhecimentos fascinantes em cada página. Garantimos o melhor serviço e entrega rápida. Mantemos relações sólidas com nosssos fornecedores para garantir mercadorias e serviços de alta qualidade. Junte-se á nossa comunidade de leitores ávidos e embarque nesta jornada literária! </p>
+			<p>Bem-vindo ao nosso universo literário! Explore histórias envolventes e conhecimentos fascinantes em cada página. 
+                Garantimos o melhor serviço e entrega rápida. Mantemos relações sólidas com nosssos fornecedores para garantir mercadorias e serviços de alta qualidade. 
+                Junte-se á nossa comunidade de leitores ávidos e embarque nesta jornada literária! </p>
 			<a class="botao-primario" href=" ">Quero comprar</a>
 		</section>
 
@@ -44,7 +48,7 @@
 
     <section id="produtos">
         <h2>Nossos produtos</h2>
-        <h3>Descubra a excelência incomparável em cada detalhe.</h3>
+        <h3>Descubra a qualidade excepcional em cada detalhe.</h3>
         <section class="produtos">
             <section class="produto">
                 <img src="imagens/imagem 1.png" alt="">
@@ -97,11 +101,13 @@
         </section>
         <section class="direita">
             <h2>Sobre nós</h2>
-            <p>Somos mais do que uma marca, somos uma paixão por inovação e excelência. No coração de nossa jornada está o compromisso com a criação de experiências excepcionais. Combinamos artesanato refinado com tecnologia de ponta para oferecer produtos que transcendem as expectativas.
+
+            <p> Seja bem-vindo ao nosso espaço dedicado à paixão pelos livros. Aqui, buscamos não apenas compartilhar conhecimento, mas também estimular a imaginação e promover conexões por meio da leitura.
+
                 <br><br>
-                Nossa história tem dedicação à qualidade, à inspiração e à busca incessante pelo extraordinário. Convidamos você a se juntar a nós nessa jornada, onde cada detalhe conta e cada experiência é única.
-                <br><br>
-                Acreditamos que cada interação é uma oportunidade de construir conexões significativas. Nossa história é contada através dos sorrisos dos clientes satisfeitos, das inovações que moldam o futuro e das relações duradouras que construímos ao longo do caminho.</p>
+                Em nossa coleção diversificada, você encontrará uma variedade de obras que exploram mundos fascinantes e contam histórias inspiradoras. Convidamos você a embarcar conosco nessa jornada literária enriquecedora. 
+
+                <br><br> Explore, descubra e conecte-se ao vasto universo que os livros têm a oferecer. Estamos felizes em tê-lo conosco nessa jornada emocionante.</p>
             <a class="botao-primario" href="">Comprar agora!</a>
             </section>
     </section>
@@ -139,6 +145,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
